@@ -1,0 +1,39 @@
+{
+  "output_dir": "external_data/trademaster_hstech10",
+  "date_start": "2016-06-01",
+  "date_end": "2020-08-31",
+  "date_count": 1026,
+  "stock_count": 10,
+  "tickers": [
+    "1347",
+    "2018",
+    "2382",
+    "241",
+    "268",
+    "285",
+    "3888",
+    "700",
+    "981",
+    "992"
+  ],
+  "splits": {
+    "train": {
+      "date_start": "2016-06-01",
+      "date_end": "2018-12-31",
+      "date_count": 615
+    },
+    "valid": {
+      "date_start": "2019-01-02",
+      "date_end": "2019-10-31",
+      "date_count": 205
+    },
+    "test": {
+      "date_start": "2019-11-01",
+      "date_end": "2020-08-31",
+      "date_count": 206
+    }
+  },
+  "dataset": "hstech10",
+  "source_path": "TradeMaster data/portfolio_management/hstech30/hstech30.csv",
+  "preprocessing": "Selected the 10 HSTech tickers with longest coverage over 2016-06-01 to 2020-08-31; retained complete dates."
+}

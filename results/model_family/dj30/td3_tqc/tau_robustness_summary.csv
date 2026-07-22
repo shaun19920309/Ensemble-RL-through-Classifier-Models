@@ -1,0 +1,6 @@
+pair,classifier_group,selected_global_tau,tau_count,tau_beating_stronger,tau_beating_simple_average,tau_beating_stronger_min,tau_beating_stronger_max,tau_within_0.01_sharpe_of_best
+td3_tqc,1,0.2,89,4,70,0.2,0.23,4
+td3_tqc,2,0.63,89,27,69,0.63,0.89,31
+td3_tqc,3,0.01,89,0,0,,,19
+td3_tqc,4,0.63,89,0,68,,,31
+td3_tqc,5,0.2,89,0,70,,,29

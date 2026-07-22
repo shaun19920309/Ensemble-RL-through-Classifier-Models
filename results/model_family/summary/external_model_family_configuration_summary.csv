@@ -1,0 +1,9 @@
+dataset,family,description,configurations,beats_stronger,positive_95pct_ci,beats_average,median_sign_stable
+SSE50,group1,Representative forecasting,15,8,8,13,--
+SSE50,group2,PatchTST+iTransformer,5,5,4,5,--
+SSE50,main,PPO+TQC (main),5,3,3,4,3
+SSE50,stress,TD3+TQC (stress),5,4,4,4,4
+HSTech10,group1,Representative forecasting,15,7,6,9,--
+HSTech10,group2,PatchTST+iTransformer,5,0,0,4,--
+HSTech10,main,PPO+TQC (main),5,4,4,4,4
+HSTech10,stress,TD3+TQC (stress),5,1,1,5,0

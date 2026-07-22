@@ -1,0 +1,6 @@
+pair,classifier_group,selected_global_tau,tau_count,tau_beating_stronger,tau_beating_simple_average,tau_beating_stronger_min,tau_beating_stronger_max,tau_within_0.01_sharpe_of_best
+patchtst_itransformer,1,0.15,89,22,26,0.01,0.22,16
+patchtst_itransformer,2,0.17,89,22,26,0.01,0.22,1
+patchtst_itransformer,3,0.01,89,4,25,0.01,0.15,16
+patchtst_itransformer,4,0.17,89,23,26,0.01,0.23,1
+patchtst_itransformer,5,0.04,89,22,26,0.01,0.22,17

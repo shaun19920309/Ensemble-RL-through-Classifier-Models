@@ -1,0 +1,8 @@
+{
+  "period": "2020",
+  "evaluation_periods": ["2020"],
+  "daily_rows": 112050,
+  "configurations": 15,
+  "configuration_windows": 60,
+  "interpretation": "retrospective_mechanism_attribution_not_admission_rule"
+}

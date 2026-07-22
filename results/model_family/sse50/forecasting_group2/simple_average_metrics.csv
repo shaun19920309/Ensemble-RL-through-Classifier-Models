@@ -1,0 +1,2 @@
+pair,strategy,cumulative_return,annualized_return,sharpe,calmar,max_drawdown
+patchtst_itransformer,simple_holding_average,0.19077077844000168,0.23683723997746742,1.2877413660781818,1.818627358725855,-0.13022856982828934

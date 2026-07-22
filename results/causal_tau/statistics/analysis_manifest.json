@@ -1,0 +1,18 @@
+{
+  "period": "2020",
+  "analysis_type": "retrospective_diagnostic",
+  "primary_inferential_unit": "pair_classifier_group_configuration",
+  "configurations": 15,
+  "classifier_refit_paths": 450,
+  "evaluation_blocks": 1800,
+  "daily_decision_rows": 112050,
+  "permutation_draws": 50000,
+  "cluster_bootstrap_draws": 5000,
+  "random_seed": 20200701,
+  "sources": {
+    "crossover_results": "results/causal_tau/mechanism_only",
+    "candidate_root": "work/causal_candidates/2020",
+    "mechanism_validation": "work/causal_tau_comparison/next_block_mechanism_validation.csv"
+  },
+  "evaluation_periods": ["2020"]
+}

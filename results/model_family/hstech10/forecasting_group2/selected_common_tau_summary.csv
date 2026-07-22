@@ -1,0 +1,2 @@
+pair,tau,classifier_groups,sharpe_across_groups_mean,sharpe_across_groups_min,sharpe_across_groups_max,min_delta_vs_stronger,min_delta_vs_simple_average,groups_beating_stronger,groups_beating_simple_average
+patchtst_itransformer,0.66,5,1.6066357067179653,1.5937225207074261,1.6105473069639291,-0.025887481181981364,-0.0023206759179106307,0,4

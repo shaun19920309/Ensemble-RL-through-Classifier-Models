@@ -1,0 +1,2 @@
+pair,strategy,cumulative_return,annualized_return,sharpe,calmar,max_drawdown
+ppo_tqc,simple_holding_average,0.15010248982491037,0.15010248982491037,0.5848192585034895,0.5139631581222356,-0.29204912346890743

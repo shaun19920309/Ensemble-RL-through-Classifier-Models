@@ -1,0 +1,13 @@
+{
+  "dataset": "DJ30",
+  "collection_periods": ["2019"],
+  "evaluation_periods": ["2020"],
+  "rl_inference": "deterministic",
+  "rl_checkpoints_fixed_during_tau_stage": true,
+  "classifier_refits": 30,
+  "classifier_grid_search": false,
+  "pairs": ["a2c_ppo", "a2c_sac", "ppo_sac"],
+  "classifier_groups": [1, 2, 3, 4, 5],
+  "require_positive_lcb": true,
+  "published_compact_result": true
+}

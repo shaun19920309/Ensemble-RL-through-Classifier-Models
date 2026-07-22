@@ -1,0 +1,3 @@
+alternative,configurations,improves,positive_ci,degrades,negative_ci,mean_delta_sharpe_vs_original
+risk_weighted,45,15,12,23,21,-0.0489
+l1,45,8,6,33,31,-0.3505

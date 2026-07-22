@@ -1,0 +1,10 @@
+dataset,metric,observations,median,p95,fraction_ge_0_90
+DJ30,original,747,0.2175,0.3528,0.0000
+DJ30,risk_weighted,747,0.3542,0.6778,0.0067
+DJ30,l1,747,0.7810,0.9986,0.2718
+SSE50,original,612,0.2433,0.4184,0.0000
+SSE50,risk_weighted,612,0.1408,0.6221,0.0000
+SSE50,l1,612,0.2892,0.9919,0.4248
+HSTech10,original,606,0.3408,0.6046,0.0000
+HSTech10,risk_weighted,606,0.6384,0.8802,0.0429
+HSTech10,l1,606,0.8290,0.9999,0.3251

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": {
+    "rolling_window_count": true,
+    "evaluation_session_count": true,
+    "strict_train_calibration_trade_order": true,
+    "later_calibration_equals_previous_trade": true,
+    "checkpoint_count": true,
+    "checkpoint_model_window_coverage": true,
+    "checkpoint_hashes_unique": true,
+    "imported_policy_parameters_match": true,
+    "validation_nodes_per_checkpoint": true,
+    "classifier_fit_count": true,
+    "classifier_fit_keys_unique": true,
+    "classifier_diagnostic_count": true,
+    "run_metric_count": true,
+    "run_metric_keys_unique": true,
+    "all_financial_metrics_finite": true,
+    "curve_shape_matches_protocol": true,
+    "all_account_values_finite": true
+  },
+  "observed": {
+    "rolling_windows": 4,
+    "evaluation_sessions": 208,
+    "checkpoints": 8,
+    "validation_history_rows": 40,
+    "classifier_fits": 600,
+    "classifier_diagnostic_rows": 3000,
+    "run_metric_rows": 13350,
+    "curve_shape": [
+      30,
+      5,
+      89,
+      208
+    ]
+  }
+}

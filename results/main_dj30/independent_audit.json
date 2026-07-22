@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "result_dir": "results/main_dj30",
+  "dataset_label": "DJ30",
+  "repetitions": 30,
+  "windows": 4,
+  "trade_dates": 253,
+  "fixed_checkpoints": 12,
+  "checkpoint_binaries_included": false,
+  "unique_checkpoint_hashes": 12,
+  "ensemble_metric_rows": 40050,
+  "classifier_group_refits": 1800,
+  "unique_classifier_seeds": 1800,
+  "maximum_base_metric_range": 0.0,
+  "selected_configurations": 15,
+  "tau_count": 89,
+  "figures_verified": 6
+}

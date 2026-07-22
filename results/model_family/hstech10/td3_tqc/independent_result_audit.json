@@ -1,0 +1,32 @@
+{
+  "root": "results/model_family/hstech10/td3_tqc",
+  "dataset_label": "HSTech10",
+  "experiment_group": "expanded_deep_rl_pair",
+  "pairs": [
+    "td3_tqc"
+  ],
+  "repetitions": 30,
+  "tau_count": 89,
+  "window_count": 4,
+  "evaluation_sessions": 206,
+  "metric_rows": 13350,
+  "classifier_fits": 600,
+  "curve_shape": [
+    30,
+    5,
+    89,
+    206
+  ],
+  "checkpoint_hashes": {
+    "td3:w1": "3c9fe62d2472a00502b136e5f7f0111edd9b96d68d03ac8c51eb4d7a7ecea24c",
+    "tqc:w1": "78eb5965fc3c26913f148a34356b2266218da3a106affc2909cb01a3787274b7",
+    "td3:w2": "83065317b3c7f9eb3c82bae16b0f177a1ae690fb5d9803a0530c0cd3f0780f35",
+    "tqc:w2": "0fcc5415f42e5ba1c2b9abb6729d9e2e17088f8719afd37f5aaa50e0572d1f88",
+    "td3:w3": "5fb823c10c3da9dadd51ecee8bc4b7c2c75aa294c59ec364d34b7c164bfcdc34",
+    "tqc:w3": "7c2530f9b76c88eed1cbc6d4c96a958b6cc867b2614f2169cf164a873a5e9b1e",
+    "td3:w4": "4200c4bcf0891e4d4bf0e9b300db9699e46af924522f3401ebc714d0c81cc4dd",
+    "tqc:w4": "30b610162caf7f151ccb4931095c2367aad7511acd8facd6a0a772564fbab447"
+  },
+  "passed": true,
+  "errors": []
+}

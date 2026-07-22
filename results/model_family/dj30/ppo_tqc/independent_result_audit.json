@@ -1,0 +1,22 @@
+{
+  "root": "results/model_family/dj30/ppo_tqc",
+  "dataset_label": "DJ30",
+  "experiment_group": "expanded_deep_rl_pair",
+  "pairs": [
+    "ppo_tqc"
+  ],
+  "repetitions": 30,
+  "tau_count": 89,
+  "window_count": 4,
+  "evaluation_sessions": 253,
+  "metric_rows": 13350,
+  "classifier_fits": 600,
+  "curve_shape": [
+    30,
+    5,
+    89,
+    253
+  ],
+  "passed": true,
+  "errors": []
+}

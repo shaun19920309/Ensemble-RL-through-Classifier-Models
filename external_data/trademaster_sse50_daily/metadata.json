@@ -1,0 +1,55 @@
+{
+  "output_dir": "external_data/trademaster_sse50_daily",
+  "date_start": "2016-06-01",
+  "date_end": "2020-08-31",
+  "date_count": 1036,
+  "stock_count": 26,
+  "tickers": [
+    "600000",
+    "600009",
+    "600016",
+    "600028",
+    "600030",
+    "600031",
+    "600036",
+    "600104",
+    "600276",
+    "600309",
+    "600519",
+    "600585",
+    "600690",
+    "600837",
+    "601211",
+    "601288",
+    "601318",
+    "601336",
+    "601398",
+    "601601",
+    "601628",
+    "601668",
+    "601688",
+    "601857",
+    "601888",
+    "603288"
+  ],
+  "splits": {
+    "train": {
+      "date_start": "2016-06-01",
+      "date_end": "2018-12-14",
+      "date_count": 621
+    },
+    "valid": {
+      "date_start": "2018-12-17",
+      "date_end": "2019-10-25",
+      "date_count": 207
+    },
+    "test": {
+      "date_start": "2019-10-28",
+      "date_end": "2020-08-31",
+      "date_count": 208
+    }
+  },
+  "dataset": "sse50_daily",
+  "source_path": "TradeMaster data/portfolio_management/sse50",
+  "preprocessing": "Aggregated five intraday observations per ticker/day to daily OHLCV; retained complete dates."
+}

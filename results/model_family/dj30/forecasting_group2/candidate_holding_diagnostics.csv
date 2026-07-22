@@ -1,0 +1,9 @@
+window,pair,segment,mean_holding_l1,mean_dispersion,identical_holding_rate
+1,patchtst_itransformer,calibration,5976.645161290323,0.259706192551975,0.0
+1,patchtst_itransformer,trade,5814.919354838709,0.2440995845249426,0.0
+2,patchtst_itransformer,calibration,6615.967741935484,0.2289050255394767,0.0
+2,patchtst_itransformer,trade,5866.9838709677415,0.2211130114644568,0.0
+3,patchtst_itransformer,calibration,5826.064516129032,0.24700698572093244,0.0
+3,patchtst_itransformer,trade,6236.774193548387,0.23614749061113932,0.0
+4,patchtst_itransformer,calibration,5304.790322580645,0.24845694724444997,0.0
+4,patchtst_itransformer,trade,5628.285714285715,0.2245689933640237,0.0

@@ -1,0 +1,2 @@
+pair,strategy,cumulative_return,annualized_return,sharpe,calmar,max_drawdown
+td3_tqc,simple_holding_average,0.4906556132999993,0.6335304783594009,1.4302726748885046,2.4355062302351556,-0.2601227089853232

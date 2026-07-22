@@ -1,0 +1,32 @@
+{
+  "root": "results/model_family/sse50/td3_tqc",
+  "dataset_label": "SSE50",
+  "experiment_group": "expanded_deep_rl_pair",
+  "pairs": [
+    "td3_tqc"
+  ],
+  "repetitions": 30,
+  "tau_count": 89,
+  "window_count": 4,
+  "evaluation_sessions": 208,
+  "metric_rows": 13350,
+  "classifier_fits": 600,
+  "curve_shape": [
+    30,
+    5,
+    89,
+    208
+  ],
+  "checkpoint_hashes": {
+    "td3:w1": "c2b68b6133c6c327d31cb625b74f6ced3f79c4e5283f0a7b92826b6d3be543c4",
+    "tqc:w1": "bcab3f6f3dc633df253be19c5d85884b346a0754b34cd5c14f924bd0d89a1b56",
+    "td3:w2": "1d7a845fc15a0563b44a302d8a2287694ef77a34fc55f8479c65e9019088aa1a",
+    "tqc:w2": "a1fc5ffc3abcec6940b5e332eba30ad551e6085b3a61b46ae06d63a3f270b298",
+    "td3:w3": "4a4d218313a71f1570697087eec8012c50585dc8cdecfce933944f42fa93a24b",
+    "tqc:w3": "b38d92e4dbac6bd1080686f18f39e3dde066c81a685a9648ebb490478eb33de5",
+    "td3:w4": "79b0f713d8e742b17966ec5e6be15d88b52ce2051ca6dbb4010e29deb5a36e52",
+    "tqc:w4": "8257e4654183c2bc53940f049465330b9750a4f746dda3b81ed4a9c1127399f6"
+  },
+  "passed": true,
+  "errors": []
+}

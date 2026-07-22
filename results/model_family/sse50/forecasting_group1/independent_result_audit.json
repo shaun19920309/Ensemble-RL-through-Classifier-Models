@@ -1,0 +1,25 @@
+{
+  "root": "results/model_family/sse50/forecasting_group1",
+  "dataset_label": "SSE50",
+  "experiment_group": "group1",
+  "pairs": [
+    "arima_xgboost",
+    "arima_lstm",
+    "xgboost_lstm"
+  ],
+  "repetitions": 30,
+  "tau_count": 89,
+  "window_count": 4,
+  "evaluation_sessions": 208,
+  "metric_rows": 40050,
+  "classifier_fits": 1800,
+  "curve_shape": [
+    30,
+    15,
+    89,
+    208
+  ],
+  "checkpoint_hashes": {},
+  "passed": true,
+  "errors": []
+}

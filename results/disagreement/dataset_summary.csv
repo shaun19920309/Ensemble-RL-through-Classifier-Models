@@ -1,0 +1,10 @@
+dataset,metric,configurations,beats_stronger,positive_ci,mean_delta_sharpe,median_delta_sharpe
+DJ30,original,15,12,10,0.1282,0.1014
+DJ30,risk_weighted,15,11,11,0.0917,0.0638
+DJ30,l1,15,6,4,-0.0856,-0.0380
+SSE50,original,15,13,13,0.1815,0.1701
+SSE50,risk_weighted,15,13,13,0.1460,0.1493
+SSE50,l1,15,9,9,-0.0325,0.0392
+HSTech10,original,15,8,8,0.1347,0.2655
+HSTech10,risk_weighted,15,6,6,0.0601,-0.0586
+HSTech10,l1,15,4,4,-0.4891,-0.5367

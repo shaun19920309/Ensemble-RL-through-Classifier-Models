@@ -1,0 +1,230 @@
+{
+  "passed": true,
+  "cross_dataset_checkpoint_hash_collisions": [],
+  "results": [
+    {
+      "root": "results/model_family/sse50/forecasting_group1",
+      "dataset_label": "SSE50",
+      "experiment_group": "group1",
+      "pairs": [
+        "arima_xgboost",
+        "arima_lstm",
+        "xgboost_lstm"
+      ],
+      "repetitions": 30,
+      "tau_count": 89,
+      "window_count": 4,
+      "evaluation_sessions": 208,
+      "metric_rows": 40050,
+      "classifier_fits": 1800,
+      "curve_shape": [
+        30,
+        15,
+        89,
+        208
+      ],
+      "checkpoint_hashes": {},
+      "passed": true,
+      "errors": []
+    },
+    {
+      "root": "results/model_family/hstech10/forecasting_group1",
+      "dataset_label": "HSTech10",
+      "experiment_group": "group1",
+      "pairs": [
+        "arima_xgboost",
+        "arima_lstm",
+        "xgboost_lstm"
+      ],
+      "repetitions": 30,
+      "tau_count": 89,
+      "window_count": 4,
+      "evaluation_sessions": 206,
+      "metric_rows": 40050,
+      "classifier_fits": 1800,
+      "curve_shape": [
+        30,
+        15,
+        89,
+        206
+      ],
+      "checkpoint_hashes": {},
+      "passed": true,
+      "errors": []
+    },
+    {
+      "root": "results/model_family/sse50/forecasting_group2",
+      "dataset_label": "SSE50",
+      "experiment_group": "group2",
+      "pairs": [
+        "patchtst_itransformer"
+      ],
+      "repetitions": 30,
+      "tau_count": 89,
+      "window_count": 4,
+      "evaluation_sessions": 208,
+      "metric_rows": 13350,
+      "classifier_fits": 600,
+      "curve_shape": [
+        30,
+        5,
+        89,
+        208
+      ],
+      "checkpoint_hashes": {},
+      "passed": true,
+      "errors": []
+    },
+    {
+      "root": "results/model_family/hstech10/forecasting_group2",
+      "dataset_label": "HSTech10",
+      "experiment_group": "group2",
+      "pairs": [
+        "patchtst_itransformer"
+      ],
+      "repetitions": 30,
+      "tau_count": 89,
+      "window_count": 4,
+      "evaluation_sessions": 206,
+      "metric_rows": 13350,
+      "classifier_fits": 600,
+      "curve_shape": [
+        30,
+        5,
+        89,
+        206
+      ],
+      "checkpoint_hashes": {},
+      "passed": true,
+      "errors": []
+    },
+    {
+      "root": "results/model_family/sse50/ppo_tqc",
+      "dataset_label": "SSE50",
+      "experiment_group": "expanded_deep_rl_pair",
+      "pairs": [
+        "ppo_tqc"
+      ],
+      "repetitions": 30,
+      "tau_count": 89,
+      "window_count": 4,
+      "evaluation_sessions": 208,
+      "metric_rows": 13350,
+      "classifier_fits": 600,
+      "curve_shape": [
+        30,
+        5,
+        89,
+        208
+      ],
+      "checkpoint_hashes": {
+        "ppo:w1": "0b7f42100fa095ab50de8f98a1473f19b60f350ec6d1ac47b71b13182720ab8b",
+        "tqc:w1": "bcab3f6f3dc633df253be19c5d85884b346a0754b34cd5c14f924bd0d89a1b56",
+        "ppo:w2": "211ff53fa44f8915625977895b1556db0b5c94c9bad17dd99cddd8af33302cd2",
+        "tqc:w2": "a1fc5ffc3abcec6940b5e332eba30ad551e6085b3a61b46ae06d63a3f270b298",
+        "ppo:w3": "46245893d97790c955098a3e46638f96ff382697eb4c94ad7d73137fe1a152e3",
+        "tqc:w3": "b38d92e4dbac6bd1080686f18f39e3dde066c81a685a9648ebb490478eb33de5",
+        "ppo:w4": "e8e592bc2ac8fa0265f3a3286d5466af0e485bd7fd84165d60d77fe4ec68e8d0",
+        "tqc:w4": "8257e4654183c2bc53940f049465330b9750a4f746dda3b81ed4a9c1127399f6"
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "root": "results/model_family/sse50/td3_tqc",
+      "dataset_label": "SSE50",
+      "experiment_group": "expanded_deep_rl_pair",
+      "pairs": [
+        "td3_tqc"
+      ],
+      "repetitions": 30,
+      "tau_count": 89,
+      "window_count": 4,
+      "evaluation_sessions": 208,
+      "metric_rows": 13350,
+      "classifier_fits": 600,
+      "curve_shape": [
+        30,
+        5,
+        89,
+        208
+      ],
+      "checkpoint_hashes": {
+        "td3:w1": "c2b68b6133c6c327d31cb625b74f6ced3f79c4e5283f0a7b92826b6d3be543c4",
+        "tqc:w1": "bcab3f6f3dc633df253be19c5d85884b346a0754b34cd5c14f924bd0d89a1b56",
+        "td3:w2": "1d7a845fc15a0563b44a302d8a2287694ef77a34fc55f8479c65e9019088aa1a",
+        "tqc:w2": "a1fc5ffc3abcec6940b5e332eba30ad551e6085b3a61b46ae06d63a3f270b298",
+        "td3:w3": "4a4d218313a71f1570697087eec8012c50585dc8cdecfce933944f42fa93a24b",
+        "tqc:w3": "b38d92e4dbac6bd1080686f18f39e3dde066c81a685a9648ebb490478eb33de5",
+        "td3:w4": "79b0f713d8e742b17966ec5e6be15d88b52ce2051ca6dbb4010e29deb5a36e52",
+        "tqc:w4": "8257e4654183c2bc53940f049465330b9750a4f746dda3b81ed4a9c1127399f6"
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "root": "results/model_family/hstech10/ppo_tqc",
+      "dataset_label": "HSTech10",
+      "experiment_group": "expanded_deep_rl_pair",
+      "pairs": [
+        "ppo_tqc"
+      ],
+      "repetitions": 30,
+      "tau_count": 89,
+      "window_count": 4,
+      "evaluation_sessions": 206,
+      "metric_rows": 13350,
+      "classifier_fits": 600,
+      "curve_shape": [
+        30,
+        5,
+        89,
+        206
+      ],
+      "checkpoint_hashes": {
+        "ppo:w1": "230000dd5bf4f6900405e4db284b7fc3c921ed57f718790e2fe071c27005c0eb",
+        "tqc:w1": "78eb5965fc3c26913f148a34356b2266218da3a106affc2909cb01a3787274b7",
+        "ppo:w2": "2b3f4d77ac58539ef5c643ad187f145bef5363e0cea769ab47a794a44afe3f19",
+        "tqc:w2": "0fcc5415f42e5ba1c2b9abb6729d9e2e17088f8719afd37f5aaa50e0572d1f88",
+        "ppo:w3": "2d587b97c397ab5ae811b5c79495f32e82647c2d7f217789a55babc817fd9714",
+        "tqc:w3": "7c2530f9b76c88eed1cbc6d4c96a958b6cc867b2614f2169cf164a873a5e9b1e",
+        "ppo:w4": "d1890715863cd0306473db0e36f8db80e9cdfdec6f08eb3192bdb3dc060062ad",
+        "tqc:w4": "30b610162caf7f151ccb4931095c2367aad7511acd8facd6a0a772564fbab447"
+      },
+      "passed": true,
+      "errors": []
+    },
+    {
+      "root": "results/model_family/hstech10/td3_tqc",
+      "dataset_label": "HSTech10",
+      "experiment_group": "expanded_deep_rl_pair",
+      "pairs": [
+        "td3_tqc"
+      ],
+      "repetitions": 30,
+      "tau_count": 89,
+      "window_count": 4,
+      "evaluation_sessions": 206,
+      "metric_rows": 13350,
+      "classifier_fits": 600,
+      "curve_shape": [
+        30,
+        5,
+        89,
+        206
+      ],
+      "checkpoint_hashes": {
+        "td3:w1": "3c9fe62d2472a00502b136e5f7f0111edd9b96d68d03ac8c51eb4d7a7ecea24c",
+        "tqc:w1": "78eb5965fc3c26913f148a34356b2266218da3a106affc2909cb01a3787274b7",
+        "td3:w2": "83065317b3c7f9eb3c82bae16b0f177a1ae690fb5d9803a0530c0cd3f0780f35",
+        "tqc:w2": "0fcc5415f42e5ba1c2b9abb6729d9e2e17088f8719afd37f5aaa50e0572d1f88",
+        "td3:w3": "5fb823c10c3da9dadd51ecee8bc4b7c2c75aa294c59ec364d34b7c164bfcdc34",
+        "tqc:w3": "7c2530f9b76c88eed1cbc6d4c96a958b6cc867b2614f2169cf164a873a5e9b1e",
+        "td3:w4": "4200c4bcf0891e4d4bf0e9b300db9699e46af924522f3401ebc714d0c81cc4dd",
+        "tqc:w4": "30b610162caf7f151ccb4931095c2367aad7511acd8facd6a0a772564fbab447"
+      },
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

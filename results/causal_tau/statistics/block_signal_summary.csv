@@ -1,0 +1,2 @@
+selected_blocks,realized_wins,realized_ties,realized_losses,realized_advantage_mean,historical_realized_pearson,historical_realized_spearman,cluster_bootstrap_spearman_ci_low,cluster_bootstrap_spearman_ci_high,both_sides_supported_blocks,crossover_persisted_blocks,crossover_persistence_rate
+1119,758,229,132,9.413349669336899e-05,0.03450537534547654,0.019153716015637978,-0.12198631175141242,0.17462152699684294,128,24,0.1875

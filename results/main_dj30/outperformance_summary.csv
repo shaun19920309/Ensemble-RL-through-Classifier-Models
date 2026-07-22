@@ -1,0 +1,8 @@
+criterion,configurations,total_configurations
+Mean cumulative return is higher,12,15
+Mean Sharpe ratio is higher,12,15
+Paired Sharpe 95% interval is entirely positive,10,15
+Sharpe win rate exceeds 50% across classifier refits,10,15
+Mean Sharpe exceeds the globally strongest single model,11,15
+Mean Calmar ratio is higher,12,15
+Mean maximum drawdown is better (closer to zero),7,15

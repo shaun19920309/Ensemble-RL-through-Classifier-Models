@@ -1,0 +1,23 @@
+{
+  "root": "results/model_family/dj30/forecasting_group2",
+  "dataset_label": "DJ30",
+  "experiment_group": "group2",
+  "pairs": [
+    "patchtst_itransformer"
+  ],
+  "repetitions": 30,
+  "tau_count": 89,
+  "window_count": 4,
+  "evaluation_sessions": 253,
+  "metric_rows": 13350,
+  "classifier_fits": 600,
+  "curve_shape": [
+    30,
+    5,
+    89,
+    253
+  ],
+  "checkpoint_hashes": {},
+  "passed": true,
+  "errors": []
+}

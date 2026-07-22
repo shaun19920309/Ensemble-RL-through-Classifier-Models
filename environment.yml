@@ -1,0 +1,9 @@
+name: ensemble-rl-paper
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - llvm-openmp
+  - pip:
+      - -r requirements-reproduction.txt

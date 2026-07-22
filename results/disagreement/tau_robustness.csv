@@ -1,0 +1,4 @@
+metric,configurations,any_successful_tau,mean_successful_fraction,median_successful_fraction
+original,45,33,0.2449,0.2135
+risk_weighted,45,30,0.2032,0.0674
+l1,45,19,0.2162,0.0000

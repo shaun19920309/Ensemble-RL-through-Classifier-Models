@@ -1,0 +1,4 @@
+metric,configurations,beats_stronger,positive_ci,mean_delta_sharpe,median_delta_sharpe,metric_wins
+original,45,33,31,0.1481,0.1055,27
+risk_weighted,45,30,30,0.0993,0.0536,13
+l1,45,19,17,-0.2024,-0.0843,5

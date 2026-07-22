@@ -1,0 +1,2 @@
+pair,tau,classifier_groups,sharpe_across_groups_mean,sharpe_across_groups_min,sharpe_across_groups_max,min_delta_vs_stronger,min_delta_vs_simple_average,groups_beating_stronger,groups_beating_simple_average
+td3_tqc,0.7,5,1.5324875093689334,1.5048410846608902,1.6077492123346835,-0.10290812767379376,0.07456840977238555,0,5

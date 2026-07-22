@@ -1,0 +1,5 @@
+window,train_start,train_end,calibration_start,calibration_end,calibration_source,trade_start,trade_end,train_dates,calibration_dates,trade_dates
+1,2012-01-04,2019-10-01,2019-10-02,2019-12-31,train_tail,2020-01-02,2020-04-01,1948,63,63
+2,2012-01-04,2019-12-31,2020-01-02,2020-04-01,previous_trade,2020-04-02,2020-07-01,2011,63,63
+3,2012-01-04,2020-04-01,2020-04-02,2020-07-01,previous_trade,2020-07-02,2020-09-30,2074,63,63
+4,2012-01-04,2020-07-01,2020-07-02,2020-09-30,previous_trade,2020-10-01,2020-12-31,2137,63,64

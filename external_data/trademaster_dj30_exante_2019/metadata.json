@@ -1,0 +1,31 @@
+{
+  "source": "external_data/trademaster_dj30",
+  "purpose": "2019 historical replay for ex-ante tau selection",
+  "splits": {
+    "train": {
+      "start": "2012-01-04",
+      "end": "2018-12-31",
+      "rows": 51011,
+      "dates": 1759,
+      "assets": 29
+    },
+    "valid": {
+      "start": "2019-01-02",
+      "end": "2019-12-31",
+      "rows": 7308,
+      "dates": 252,
+      "assets": 29
+    },
+    "test": {
+      "start": "2020-01-02",
+      "end": "2020-12-31",
+      "rows": 7337,
+      "dates": 253,
+      "assets": 29
+    }
+  },
+  "source_sha256": {
+    "train.csv": "5b9058712c86a9d128fa3eacb542664bd62cfae5157a1439d01301315e5607b6",
+    "valid.csv": "7277df38f4564bdbf684b986061e1d7f48253d7dead0c30e304d4e2bbd106d54"
+  }
+}

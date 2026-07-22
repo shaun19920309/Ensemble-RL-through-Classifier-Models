@@ -1,0 +1,16 @@
+pair,classifier_group,curve_index
+a2c_ppo,1,0
+a2c_ppo,2,1
+a2c_ppo,3,2
+a2c_ppo,4,3
+a2c_ppo,5,4
+a2c_sac,1,5
+a2c_sac,2,6
+a2c_sac,3,7
+a2c_sac,4,8
+a2c_sac,5,9
+ppo_sac,1,10
+ppo_sac,2,11
+ppo_sac,3,12
+ppo_sac,4,13
+ppo_sac,5,14

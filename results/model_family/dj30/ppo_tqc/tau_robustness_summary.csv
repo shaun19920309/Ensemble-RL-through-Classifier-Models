@@ -1,0 +1,6 @@
+pair,classifier_group,selected_global_tau,tau_count,tau_beating_stronger,tau_beating_simple_average,tau_beating_stronger_min,tau_beating_stronger_max,tau_within_0.01_sharpe_of_best
+ppo_tqc,1,0.01,89,0,0,,,16
+ppo_tqc,2,0.01,89,21,21,0.01,0.21,16
+ppo_tqc,3,0.17,89,23,23,0.01,0.23,18
+ppo_tqc,4,0.01,89,16,16,0.01,0.16,16
+ppo_tqc,5,0.27,89,67,67,0.23,0.89,62
